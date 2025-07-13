@@ -20,11 +20,12 @@ let stringTwo = "JavaScript";
 let stringThree = "";
 
 // Your task: Assign the length of each string to the corresponding variable
-let lengthOne;   // Length of stringOne
-let lengthTwo;   // Length of stringTwo
-let lengthThree; // Length of stringThree
+let lengthOne = (stringOne.length);   // Length of stringOne
+let lengthTwo = (stringTwo.length);   // Length of stringTwo
+let lengthThree = (stringThree.length); // Length of stringThree
 
 // Your code here
-
-
+console.log(lengthOne); //returns 15, this is correct
+console.log(lengthTwo); //returns 10, this is correct
+console.log(lengthThree); //returns 0, I believe this is correct since there is no space in the quotation marks
 
